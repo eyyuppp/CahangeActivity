@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textSaveEposta"
+        android:layout_width="231dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/textSavePassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="238dp"
+        android:onClick="bahck"
+        android:text="BAHCK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="43dp"
+        android:text="Kaydınız başarılı bir şekilde gerçeklemiştir."
+        android:textColor="#2196F3"
+        app:layout_constraintBottom_toTopOf="@+id/textSaveEposta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSavePassword"
+        android:layout_width="231dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="109dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGeri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
